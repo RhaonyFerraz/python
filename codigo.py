@@ -2,11 +2,11 @@ import pyautogui
 import time
 import pandas
 
-pyautogui.PAUSE = 0.5
+pyautogui.PAUSE = 0.6
 
 
 pyautogui.press("WIN")
-pyautogui.write("chome")
+pyautogui.write("chrome")
 pyautogui.press("enter")
 time.sleep(2)
 
